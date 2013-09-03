@@ -7,6 +7,7 @@ gem 'rails', '4.0.0'
 gem 'sqlite3'
 gem 'devise', '3.0.0.rc'
 gem 'protected_attributes'
+gem 'simple_form'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

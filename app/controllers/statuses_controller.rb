@@ -28,6 +28,7 @@ class StatusesController < ApplicationController
 
     respond_to do |format|
       if @status.save
+        @status.user = current_user
         format.html { redirect_to @status, notice: 'Status was successfully created.' }
         format.json { render action: 'show', status: :created, location: @status }
       else
@@ -69,6 +70,6 @@ class StatusesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def status_params
-      params.require(:status).permit(:name, :content)
+      params.require(:status).permit(:user_id, :content)
     end
 end
