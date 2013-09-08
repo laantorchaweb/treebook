@@ -1,5 +1,13 @@
 dummy:
     first_name: "Dummy"
     last_name: "User"
+    profile_name: 'dummy'
     email: "dummyuser@some.com"
+    encrypted_password: "password"
+
+jim:
+    first_name: "Jim"
+    last_name: "Dow"
+    profile_name: "jim"
+    email: "jim@jimmy.com"
     encrypted_password: "password"

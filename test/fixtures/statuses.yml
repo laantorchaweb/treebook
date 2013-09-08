@@ -10,3 +10,12 @@ two:
   content: MyText
   user: dummy
 
+one:
+  # name: MyString
+  content: MyText
+  user: jim
+
+two:
+  # name: MyString
+  content: MyText
+  user: jim
