@@ -11,3 +11,10 @@ jim:
     profile_name: "jim"
     email: "jim@jimmy.com"
     encrypted_password: "password"
+
+mike:
+    first_name: "Mike"
+    last_name: "The Frog"
+    profile_name: "thefrog"
+    email: "mike@thefrog.com"
+    encrypted_password: "password"
