@@ -8,6 +8,12 @@ gem 'devise', '3.0.0.rc'
 gem 'protected_attributes'
 gem 'simple_form'
 
+group :test do
+    gem 'shoulda'
+    gem 'shoulda-matchers'
+    gem 'shoulda-context'
+end
+
 group :development, :test do
     gem 'sqlite3'
 end
